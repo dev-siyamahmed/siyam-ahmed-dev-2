@@ -141,8 +141,16 @@ const Skill = styled.div`
         font-size: 12px;
     }
 `
-
-
+const URL = styled.div`
+    font-size: 14px;
+    font-weight: 500;
+    color: ${({ theme }) => theme.text_primary + 99};
+    text-decoration: underline;
+    // position: absolute;
+    left: 16px;
+    bottom: 12px;
+    cursor: pointer;
+`
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -154,6 +162,9 @@ const ExperienceCard = ({ experience }) => {
                     <Company>{experience.company}</Company>
                     <Date>{experience.date}</Date>
                 </Body>
+                <URL>
+                    <a href={experience?.url} target="_blank" rel="noopener noreferrer">View</a>
+                </URL>
             </Top>
             <Description>
                 {experience?.desc &&
