@@ -1,15 +1,20 @@
-import React from 'react'
+
 import styled from 'styled-components'
 
-const Document = styled.img`
-    display: none;
-    height: 70px;
+const Document = styled.a`
+    display: inline-block;
+    padding: 6px 12px;
+    background: #854CE6;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
     width: fit-content;
-    background-color: #000;
-    border-radius: 10px;
-    &:hover{
-        cursor: pointer;
-        opacity: 0.8;
+    transition: all 0.3s ease;
+    &:hover {
+        opacity: 0.9;
     }
 `
 
@@ -38,9 +43,6 @@ const Card = styled.div`
     border-radius: 10px;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
-    justify-content: space-between;
-    position: relative;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -53,16 +55,6 @@ const Card = styled.div`
         padding: 10px;
         gap: 8px;
         width: 300px;
-    }
-
-    &:hover ${Document}{
-        display: flex;
-    }
-
-    &:hover ${Span}{
-        overflow: visible;
-        -webkit-line-clamp: unset;
-
     }
     border: 0.1px solid #854CE6;
 `
@@ -88,7 +80,6 @@ const Body = styled.div`
     display: flex;
     flex-direction: column; 
 `
-
 
 const Name = styled.div`
     font-size: 18px;
@@ -126,8 +117,6 @@ const Grade = styled.div`
     }
 `
 
-
-
 const EducationCard = ({ education }) => {
     return (
         <Card>
@@ -139,10 +128,27 @@ const EducationCard = ({ education }) => {
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
+
+           
+            {education.grade && (
+                <Grade><b>Grade: </b>{education.grade}</Grade>
+            )}
+
+          
+            {education.status && (
+                <Grade><b>Status: </b>{education.status}</Grade>
+            )}
+
             <Description>
                 <Span>{education.desc}</Span>
             </Description>
+
+          
+            {education.url && (
+                <Document href={education.url} target="_blank" rel="noopener noreferrer">
+                    View Certificate
+                </Document>
+            )}
         </Card>
     )
 }

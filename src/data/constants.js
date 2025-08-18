@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/dev-siyamahmed",
   resume:
-    "https://drive.google.com/file/d/1RloloC54aGvaEJAeQeKaEyJNssHXBFjx/view?usp=sharing",
+    "https://drive.google.com/file/d/15ArUHrZ6BV2fhRxwtMaLEJbBUAoYkrKI/view",
   twitter: "https://x.com/SiyamAhmed4086",
   insta: "https://www.instagram.com/foysalahmedsiyam/",
   facebook: "https://www.facebook.com/profile.php?id=100077374245629",
@@ -278,7 +278,8 @@ export const education = [
     "date": "April 2021 - Present",
     "grade": "Pending CGPA",
     "desc": "Currently pursuing a Diploma in Engineering in Computer Science and Technology at Bhola Polytechnic Institute. I have successfully completed 6 out of 8 semesters, gaining expertise in courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Computer Networks, Microcontroller Programming, and Sensor Technologies. Additionally, I am proficient in tools like MS Word and Excel. As an active member of the Google Developer Student Club (Astra) at BhPI, I collaborate on innovative projects with a team of skilled developers, enhancing my technical and teamwork skills.",
-    "degree": "Computer Science & Technology"
+    "degree": "Computer Science & Technology",
+     type: "education"
   }
 ,  
   {
@@ -288,7 +289,20 @@ export const education = [
     "date": "Feb 2019 - Feb 2021",
     "grade": "4.71 GPA",
     "desc": "Completed a comprehensive vocational program focused on the fundamentals of mechanical engineering, including hands-on training in machine operation, maintenance, and technical drawing. Gained practical experience and developed strong problem-solving and teamwork skills.",
-    "degree": "Mechanical Department"
+    "degree": "Mechanical Department",
+     type: "education"
+  }
+,  
+ {
+    id: 3,
+    school: "NSDA (National Skill Development Authority)",
+    degree: "Web Design and Development for Freelancing, Level- 3",
+    date: "2025",
+    status: "Completed",
+    img: "https://nsda.gov.bd/themes/responsive_npf/img/logo/logo.png",
+    desc: "Successfully completed NSDA Level-3 professional certification in Web Design and Development for Freelancing, Level- 3",
+    type: "certification",
+    url: "https://drive.google.com/file/d/1uYWgajaIyzVfaP8aSSLp3pwRAt5ndHaT/view?usp=sharing"
   }
 ,  
   
