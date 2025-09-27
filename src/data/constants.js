@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/dev-siyamahmed",
   resume:
-    "https://drive.google.com/file/d/15ArUHrZ6BV2fhRxwtMaLEJbBUAoYkrKI/view",
+    "https://drive.google.com/file/d/1aL8K2k2pys6y0fK3g3Y-EEMxKHFf15RU/view?usp=sharing",
   twitter: "https://x.com/SiyamAhmed4086",
   insta: "https://www.instagram.com/foysalahmedsiyam/",
   facebook: "https://www.facebook.com/profile.php?id=100077374245629",
@@ -309,6 +309,56 @@ export const education = [
 ];
 
 export const projects = [
+
+{
+  "id": 10,
+  "title": "Quize Hub Platform",
+  "date": "August 2025 - Present",
+  "description": 
+  "Quize Hub is an interactive online quiz platform with role-based functionalities for Admin, Teacher, and User. Users can participate in subject- and topic-wise MCQ quizzes with a time management system, while Teachers and Admins can upload and manage questions. The platform includes a leaderboard to track performance, OTP-based authentication for secure login, and a complete role management system. Admins can assign roles, monitor activities, and manage the overall system efficiently.",
+  "image": "https://i.ibb.co.com/k6kTk2Gx/screencapture-quize-hub-murex-vercel-app-2025-09-27-13-20-59.png",
+  "detailsImage": "https://i.ibb.co.com/SXV1vWF4/screencapture-quize-hub-murex-vercel-app-mcq-2025-09-27-13-22-20.png",
+  "tags": [
+    "Next Js",
+    "MongoDb",
+    "Node Js",
+    "Eslint",
+    "Express Js",
+    "Jwt-Decode",
+    "Nodemailer",
+    "Tailwind Css"
+  ],
+  "category": "Full-Or-MERN",
+  "frontend": "https://github.com/dev-siyamahmed/quize-hub.git",
+  "backend": "https://github.com/dev-siyamahmed/quize-hub.git",
+  "webapp": "https://quize-hub-murex.vercel.app"
+}
+,
+{
+  "id": 20,
+  "title": "ZUZU E-commerce Platform (Client project)",
+  "date": "July 2025 - August 2025",
+  "description": 
+  "ZUZU is a modern and responsive e-commerce platform client offering a wide range of products across multiple categories such as Boys, Girls, Kids, and Lifestyle items. The platform features a seamless order system with real-time order tracking, secure payment methods, and a user-friendly shopping experience. An advanced admin dashboard allows administrators to upload and manage products, categories, banners, and orders efficiently. The system also includes order management, inventory control, and role-based access for admins to monitor and maintain the platform. With a fully optimized frontend and backend, ZUZU ensures fast performance, mobile responsiveness, and a smooth customer experience.",
+  "image": "https://i.ibb.co.com/Wv8mn1Qh/screencapture-zuzu-e-commerce-vercel-app-shop-2025-09-27-14-33-58.png",
+  "detailsImage": "https://i.ibb.co.com/hFsF8G1V/screencapture-zuzu-e-commerce-vercel-app-admin-order-2025-09-27-14-11-04.png",
+  "tags": [
+    "Next Js",
+    "MongoDb",
+    "Node Js",
+    "Eslint",
+    "Express Js",
+    "Jwt-Decode",
+    "Tailwind Css",
+    "Etc"
+  ],
+  "category": "Full-Or-MERN",
+  "frontend": "https://github.com/dev-siyamahmed/zuzu-e-commerce.git",
+  "backend": "https://github.com/dev-siyamahmed/zuzu-e-commerce.git",
+  "webapp": "https://zuzu-e-commerce.vercel.app"
+}
+
+,
   {
     id: 0,
     title: "Book Exchange Platform",
